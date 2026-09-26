@@ -1,3 +1,7 @@
 import math
-def sqrt(x): return math.sqrt(x)
-# square sqrt(x): return math.sqrt(x)
+
+
+def sqrt(x):
+    if x < 0:
+        raise ValueError("Cannot take sqrt of a negative number")
+    return math.sqrt(x)
