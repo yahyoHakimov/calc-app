@@ -19,6 +19,8 @@ def subtract(a, b):
     return a - b
 
 def modulo(a, b):
+    if b == 0:
+        return None
     return a % b
 
 if __name__ == "__main__":
