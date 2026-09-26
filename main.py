@@ -23,9 +23,6 @@ def modulo(a, b):
         return None
     return a % b
 
-def qoshish(a,b ):
-    return a + b
-
 if __name__ == "__main__":
     print("Result:",add(2, 3))
 
