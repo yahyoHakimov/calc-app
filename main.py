@@ -20,6 +20,6 @@ def subtract(a, b):
 
 
 if __name__ == "__main__":
-    print(add(2, 3))
+    print("Sum:",add(2, 3))
     print(multiply(2, 3))
 # TODO: add input from user
