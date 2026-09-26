@@ -23,5 +23,5 @@ def modulo(a, b):
 
 if __name__ == "__main__":
     print("Result:",add(2, 3))
-    print(multiply(2, 3))
+    print("Multiply:"multiply(2, 3))
 # TODO: add input from user
